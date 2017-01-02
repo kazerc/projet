@@ -1,0 +1,56 @@
+header
+{
+   background-image: url("./assets/img/barre.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.Lienbarre:hover
+{
+    color: rgb(41,159,206);
+}
+
+.Lienbarre:focus,.Lienbarre:active
+{
+    color: rgb(41,159,206);
+    text-decoration: underline;
+}
+
+nav 
+{ 
+    margin-left: 500px;
+  position: relative;
+   
+
+}
+nav ul
+{  
+    
+    display: flex;
+    list-style-type: none;
+    display: flex;
+  
+    
+}
+
+nav li
+{
+    margin-right: 35px;
+   
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #FFFFFF;
+    padding-bottom: 3px;
+    text-decoration: none;
+    
+}
+
+nav a:hover
+{
+  
+    border-bottom: 3px;
+    
+}
