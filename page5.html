@@ -4,37 +4,59 @@
      <meta charset="UTF-8">
      <title>Projet</title>
      <link rel="stylesheet" media="screen" href="assets/css/style1.css">
-  </head>
+  <script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/0EE0CFDA-3209-4C42-9896-ADD5754089B9/main.js" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://ff.kis.v2.scr.kaspersky-labs.com/9B9804575DDA-6989-24C4-9023-ADFC0EE0/abn/main.css"/></head>
   <body>
       <header>
+
           <nav>
               <ul>
 					       <li><a href="page1.html" class="Lienbarre">Accueil</a></li>
-                <li><a href="page2.html" class="Lienbarre">Séries</a></li>
-                <li><a href="page3.html" class="Lienbarre">Films</a></li>
-                <li><a href="page4.html" class="Lienbarre">Jeux</a></li>
-                <li><a href="page5.html" class="Lienbarre">Livres</a></li>
+                <li><a href="page2.html" class="Lienbarre">CV</a></li>
+                <li><a href="page3.html" class="Lienbarre">Projets Professionels</a></li>
+                <li><a href="page4.html" class="Lienbarre">Réalisations Informatiques</a></li>
+								<li><a href="page5.html" class="Lienbarre">Centres d'intérêts</a></li>
               </ul>
           </nav>
       </header>
-    
-      <form action="http://www.iut-fbleau.fr/sitebp/post.php" method="post">
-          <label for="nom">Nom</label>
+    <div id="form">
+			
+		
+      <form action="http://www.iut-fbleau.fr/sitebp/post.php" method="post" >
+				<label for="nom">Nom</label>  </br>
             <input type="text" name="nom" required>  </br>
-          <label for="prenom">Prenom</label>
+          <label for="prenom">Prenom</label>  </br>
             <input type="text" name="prenom" required>  </br>
-          <label for="mail">Email</label>
+          <label for="mail">Email</label>  </br>
             <input type="email" name="mail" required>  </br>
-           <label for="adresse">Adresse</label>
+           <label for="adresse">Adresse</label>  </br>
             <input type="text" name="adresse" required>  </br>
-          <label for="code">Code Postal</label>
+          <label for="code">Code Postal</label>  </br>
             <input type="number" name="code" required>  </br>
-          <label for="portable">Telephone portable</label>
+          <label for="portable">Telephone portable</label>  </br>
             <input type="text" name="portable" required>  </br>
-          <label for="sexe">Sexe</label>
+          <label for="sexe">Sexe</label>  </br>
             <input type="radio" name="sexe" value="homme" checked> Homme  
           <input type="radio" name="sexe" value="femme"> Femme </br>
             <input type="reset">
           <input type="submit" name="soumission" value="Envoyer"/>
+</div>
+<footer>
+       
+                <div id="logos">
+                    <h1>Partager</h1>
+                   
+                      <p><img src="assets/img/facebok.png" alt="Facebook" /><img src="assets/img/twiter.png" alt="Twitter" /><img src="assets/img/vimeo.png" alt="Vimeo" /><img src="assets/img/flickr.png" alt="Flickr" /><img src="
+                    assets/img/rss.png" alt="RSS" /></p>
+                    </div>
+                    <div id="formulaire">
+                <form method="post" action="traitement.php">
+   <p>
+       <label for="ameliorer">Laisse un commentaire ?</label><br />
+       <textarea name="ameliorer" id="ameliorer"></textarea>
+   </p>
+</form>
+</div>
+       
+      </footer>
   </body>
 </html>

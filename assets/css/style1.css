@@ -1,10 +1,18 @@
-header
+body
 {
-   background-image: url("./assets/img/barre.jpg");
-    background-repeat: no-repeat;
-    background-position: top center;
+  background-color: rgb(245,245,245);
+  width:900px;
+  margin:auto;
+  
 }
 
+header
+{
+  background-color: rgb(50,50,50);
+  position:absolute; 
+  width:900px;
+  margin: auto;
+}
 .Lienbarre:hover
 {
     color: rgb(41,159,206);
@@ -16,20 +24,21 @@ header
     text-decoration: underline;
 }
 
-nav 
-{ 
-    margin-left: 500px;
-  position: relative;
-   
+.barrenav
+{
+  position: absolute;
+}
 
+nav 
+{ width:900px;
+  margin:auto;
+  position:relative;
+  left:20px;
 }
 nav ul
-{  
-    
-    display: flex;
+{
     list-style-type: none;
     display: flex;
-  
     
 }
 
@@ -54,3 +63,56 @@ nav a:hover
     border-bottom: 3px;
     
 }
+
+
+#form
+{
+ 
+  margin-left:350px;
+  padding-top:80px;
+}
+bodyy
+{
+  display:flex;
+}
+iframe
+{
+ 
+  padding-top:100px;
+  margin-left:400px;
+}
+
+/*body*/
+
+#paccueil
+{
+  padding-top:100px;
+  color: rgb(0,0,0);
+}
+/*footer*/
+
+footer
+{ display:flex;
+  padding-top:40px;
+}
+
+footer h1
+{
+  font-size: 1.1em;
+}
+footer p
+{
+ position: relative;
+
+}
+
+#formulaire
+{ 
+  position: relative;
+  left: 150px;
+}
+
+
+
+
+
