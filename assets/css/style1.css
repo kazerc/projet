@@ -1,5 +1,5 @@
 body
-{
+{ 
   background-color: rgb(245,245,245);
   width:900px;
   margin:auto;
@@ -68,7 +68,7 @@ nav a:hover
 #form
 {
  
-  margin-left:350px;
+  margin-left:100px;
   padding-top:80px;
 }
 bodyy
@@ -89,6 +89,14 @@ iframe
   padding-top:100px;
   color: rgb(0,0,0);
 }
+
+#cv
+{
+  
+  color:black;
+}
+/* Galerie Image */
+
 /*footer*/
 
 footer
@@ -109,8 +117,32 @@ footer p
 #formulaire
 { 
   position: relative;
-  left: 150px;
+  left: 80px;
 }
+
+#contact a
+{
+  margin-left: 250px;
+  text-decoration: none;
+  color:black;
+  font-size:1.5em;
+}
+
+.imgcontact
+{ padding-top:100px;
+  width: 50%;
+	height: 50%;
+}
+
+section
+{
+  display: flex;
+}
+
+
+
+
+
 
 
 
