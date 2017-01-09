@@ -1,10 +1,4 @@
-body
-{ 
-  background-color: rgb(245,245,245);
-  width:900px;
-  margin:auto;
-  
-}
+
 
 header
 {
@@ -34,11 +28,12 @@ nav
   margin:auto;
   position:relative;
   left:20px;
+	
 }
 nav ul
 {
     list-style-type: none;
-    display: flex;
+    display:flex;
     
 }
 
@@ -49,10 +44,10 @@ nav li
 }
 
 nav a
-{
-    font-size: 1.3em;
+{		font-family:Verdana;
+    font-size: 1.0em;
     color: #FFFFFF;
-    padding-bottom: 3px;
+    bottom: 3px;
     text-decoration: none;
     
 }
@@ -77,31 +72,159 @@ bodyy
 }
 iframe
 {
+ 	position:relative;
+	left : -250px;
+  top:100px;
  
-  padding-top:100px;
-  margin-left:400px;
 }
 
 /*body*/
+body
+{ 
+  background-color: rgb(245,245,245);
+  width:900px;
+  margin:auto;
+  
+}
 
 #paccueil
-{
-  padding-top:100px;
+{	position:relative;
+	width:400px;
+  top:40px;
+	left:-350px;
   color: rgb(0,0,0);
+	font-family:verdana;
+	font-size:0.80em;
 }
 
 #cv
 {
-  
+  position: relative;
+	top: 100px;
   color:black;
+	font-family:verdana;
+	font-size:15px;
 }
+
+.bleu
+{
+	color: rgb(41,159,206);
+	font-weight:bold;
+}
+
+.rouge
+{
+	color: rgb(231,89,89);
+	font-weight:bold;
+}
+
+.center
+{
+	position:relative;
+	left:260px;
+}
+
+.bold
+{
+	font-weight:bold;
+}
+
+.projet
+{	color: rgb(251,89,89);
+	font-family:verdana;
+	font-size:1.0em;
+	position:relative;
+	top:100px;
+	left:300px;
+	font-weight:bold;
+}
+
+.real
+{	display:inline;
+	position : relative;
+	top:100px;
+	left:0px; 
+	font-weight:bold;
+	color:rgb(75,150,75);
+	font-family:verdana;
+	font-size:15px;
+	padding-left:150px;
+	text-decoration:underline;
+	
+}
+
+#img img
+{
+	position:relative;
+	top:150px;
+	left:50px;
+	display:inline;
+	padding-left:30px;
+}
+
+#mario img
+{
+	width:350px;
+}
+
+#saccueil
+{
+	position: relative;
+	top: 100px;
+	width:800px;
+}
+
+.bienvenue
+{ 
+	
+	width:350px;
+  color: rgb(0,0,0);
+	font-family:verdana;
+	font-size:0.80em;
+	position: relative;
+	left:60px;
+	font-weight:bold;
+
+}
+
+.lien a
+{	font-family:Verdana;
+    font-size: 0.90em;
+	position:relative;
+	top: 50px;
+    left : 550px;
+    bottom: 3px;
+    text-decoration: none;
+	
+	color:rgb(251,89,89);
+	
+}
+
 /* Galerie Image */
 
+#gi 
+{ display:inline;
+	position:relative;
+	top:70px;
+}
+
+#gi img
+{
+	width:140px;
+
+}
+
+#gi div
+{
+	font-family:verdana;
+	
+}
 /*footer*/
 
 footer
 { display:flex;
-  padding-top:40px;
+  padding-top:150px;
+	font-family:verdana;
 }
 
 footer h1
@@ -122,10 +245,10 @@ footer p
 
 #contact a
 {
-  margin-left: 250px;
+  margin-left: 470px;
   text-decoration: none;
   color:black;
-  font-size:1.5em;
+  font-size:1.3em;
 }
 
 .imgcontact
@@ -138,6 +261,12 @@ section
 {
   display: flex;
 }
+
+#logos img
+{
+	width:42px;
+}
+
 
 
 
